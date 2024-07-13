@@ -1,0 +1,33 @@
+name: flutter_application_analytics
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.2.4
+  firebase_core: ^2.25.4
+  firebase_analytics: ^10.8.6
+  firebase_database_mocks: ^0.6.1
+  firebase_dynamic_links: ^5.4.14
+  flutter_consent_flow: ^1.0.4
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
